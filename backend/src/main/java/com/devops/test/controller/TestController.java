@@ -24,7 +24,7 @@ public class TestController {
 
     @GetMapping("/health")
     public String health() {
-        return "Backend is OK";
+        return "백엔드 is OK";
     }
 
     private String getClientIp(HttpServletRequest request) {
